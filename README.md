@@ -1,5 +1,6 @@
 # uml-ontology
 UML ontology in RDF/XML syntax, developed using Protege.
+
 For SEKE 2018:
 In order to view the UML Ontology, please 
 1. download Protege from https://protege.stanford.edu/

@@ -355,7 +355,7 @@ If a TypedElement has an associated Type, then any value represented by the Type
                                         <rdf:rest>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first>unkown</rdf:first>
+                                                <rdf:first>unknown</rdf:first>
                                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                                             </rdf:Description>
                                         </rdf:rest>
@@ -2361,6 +2361,8 @@ upon entry into the State.</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/uml-ontology#enrolledInAssociation">
         <rdf:type rdf:resource="http://www.semanticweb.org/uml-ontology#Association"/>
+        <memberEnd rdf:resource="http://www.semanticweb.org/uml-ontology#associationEnd1"/>
+        <memberEnd rdf:resource="http://www.semanticweb.org/uml-ontology#associationEnd2"/>
     </owl:NamedIndividual>
     
 
@@ -2413,6 +2415,7 @@ upon entry into the State.</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/uml-ontology#instructsAssociation">
         <rdf:type rdf:resource="http://www.semanticweb.org/uml-ontology#Association"/>
+        <memberEnd rdf:resource="http://www.semanticweb.org/uml-ontology#associationEnd3"/>
     </owl:NamedIndividual>
     
 
